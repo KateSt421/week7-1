@@ -83,3 +83,41 @@ main {
   align-items: center;
   display: flex;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    display: block;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .section {
+    width: 90%;
+    margin-top: 20px;
+  }
+  /* .main {
+    display: inline-flex;
+  } */
+}
+
+@media (max-width: 415px) {
+  /* .main {
+    display: block;
+  } */
+
+  .right-section {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .section {
+    width: 70%;
+    margin-top: 20px;
+  }
+}
