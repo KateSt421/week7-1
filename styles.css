@@ -18,7 +18,7 @@ body {
 main {
   display: flex;
   background-color: rgb(255 243 227);
-  min-height: calc(100vh - 250px);
+  min-height: 100vh;
 }
 
 .main-part {
@@ -94,6 +94,7 @@ main {
     display: block;
     height: 100%;
   }
+
   .footer-section {
     width: 100%;
   }
@@ -109,6 +110,7 @@ main {
     margin-bottom: 50px;
   }
 }
+
 @media (max-width: 1024px) {
   .main-flex,
   .section-main-bottom {
@@ -154,9 +156,6 @@ main {
 }
 
 @media (max-width: 768px) {
-  main {
-    min-height: calc(100vh - 100px);
-  }
   .main-flex {
     flex-direction: column;
   }
@@ -165,6 +164,7 @@ main {
     width: calc(100% - 35px);
     margin-top: 50px;
   }
+
   .text-main-part {
     margin-bottom: 20px;
   }
@@ -175,15 +175,10 @@ main {
     padding-top: 30px;
     padding-bottom: 30px;
   }
+
   .section {
     width: 90%;
     margin-top: 20px;
-  }
-}
-
-@media (max-width: 540px) {
-  main {
-    min-height: calc(90vh - 0px);
   }
 }
 
